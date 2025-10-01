@@ -12,3 +12,9 @@ data/*.json
 
 # OS files
 .DS_Store
+
+# Environment variables
+.env
+
+# Temporary Excel files
+data/~$*.xlsx
