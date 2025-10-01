@@ -3,3 +3,9 @@ pandas
 beautifulsoup4
 lxml
 PyPDF2
+html5lib
+openpyxl
+openai
+python-dotenv
+streamlit>=1.28.0
+plotly>=5.17.0

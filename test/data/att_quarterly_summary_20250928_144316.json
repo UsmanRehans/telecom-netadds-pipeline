@@ -1,0 +1,155 @@
+[
+  {
+    "quarter": "2021-06-30",
+    "postpaid_subscribers": 79059,
+    "postpaid_net_adds": 789,
+    "prepaid_subscribers": 18681,
+    "prepaid_net_adds": 297,
+    "total_subscribers": 97740,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2021-09-30",
+    "postpaid_subscribers": 80249,
+    "postpaid_net_adds": 928,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 351,
+    "total_subscribers": 80451,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2021-12-31",
+    "postpaid_subscribers": 3,
+    "postpaid_net_adds": 3,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 956,
+    "total_subscribers": 205,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2022-03-31",
+    "postpaid_subscribers": 81639,
+    "postpaid_net_adds": 691,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 116,
+    "total_subscribers": 81841,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2022-06-30",
+    "postpaid_subscribers": 82694,
+    "postpaid_net_adds": 813,
+    "prepaid_subscribers": 19095,
+    "prepaid_net_adds": 231,
+    "total_subscribers": 101789,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2022-09-30",
+    "postpaid_subscribers": 83614,
+    "postpaid_net_adds": 708,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 141,
+    "total_subscribers": 83816,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2022-12-31",
+    "postpaid_subscribers": 31,
+    "postpaid_net_adds": 2,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 479,
+    "total_subscribers": 233,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2023-03-31",
+    "postpaid_subscribers": 85421,
+    "postpaid_net_adds": 424,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 40,
+    "total_subscribers": 85623,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2023-06-30",
+    "postpaid_subscribers": 85846,
+    "postpaid_net_adds": 326,
+    "prepaid_subscribers": 19352,
+    "prepaid_net_adds": 167,
+    "total_subscribers": 105198,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2023-09-30",
+    "postpaid_subscribers": 86365,
+    "postpaid_net_adds": 468,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 56,
+    "total_subscribers": 86567,
+    "total_net_adds": null
+  },
+  {
+    "quarter": "2023-12-31",
+    "postpaid_subscribers": 31,
+    "postpaid_net_adds": 1,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 128,
+    "total_subscribers": 233,
+    "total_net_adds": 2022
+  },
+  {
+    "quarter": "2024-03-31",
+    "postpaid_subscribers": 87450,
+    "postpaid_net_adds": 349,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": 1,
+    "total_subscribers": 87652,
+    "total_net_adds": 741
+  },
+  {
+    "quarter": "2024-06-30",
+    "postpaid_subscribers": 87999,
+    "postpaid_net_adds": 419,
+    "prepaid_subscribers": 19271,
+    "prepaid_net_adds": 82,
+    "total_subscribers": 107270,
+    "total_net_adds": 997
+  },
+  {
+    "quarter": "2024-09-30",
+    "postpaid_subscribers": 88384,
+    "postpaid_net_adds": 403,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": -49,
+    "total_subscribers": 88586,
+    "total_net_adds": 617
+  },
+  {
+    "quarter": "2024-12-31",
+    "postpaid_subscribers": 31,
+    "postpaid_net_adds": 1,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": -102,
+    "total_subscribers": 233,
+    "total_net_adds": 2023
+  },
+  {
+    "quarter": "2025-03-31",
+    "postpaid_subscribers": 89463,
+    "postpaid_net_adds": 324,
+    "prepaid_subscribers": 202,
+    "prepaid_net_adds": -34,
+    "total_subscribers": 89665,
+    "total_net_adds": 120
+  },
+  {
+    "quarter": "2025-06-30",
+    "postpaid_subscribers": 89928,
+    "postpaid_net_adds": 401,
+    "prepaid_subscribers": 18768,
+    "prepaid_net_adds": -152,
+    "total_subscribers": 108696,
+    "total_net_adds": 289
+  }
+]

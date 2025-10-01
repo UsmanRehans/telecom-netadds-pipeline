@@ -1,0 +1,9 @@
+{
+  "connections": {
+    "wireless_retail_prepaid": 0
+  },
+  "net_additions": {
+    "wireless_retail_prepaid": 0
+  },
+  "extraction_method": "verizon_clean_parser"
+}
