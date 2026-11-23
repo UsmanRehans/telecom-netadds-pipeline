@@ -1,0 +1,290 @@
+[
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2026-10-21",
+    "period_end": "2026-09-30",
+    "accession_no": "0000732717-26-000372",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000372/t-20260930.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2026-07-22",
+    "period_end": "2026-06-30",
+    "accession_no": "0000732717-26-000297",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000297/t-20260630.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2026-04-27",
+    "period_end": "2026-03-31",
+    "accession_no": "0000732717-26-000206",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000206/t-20260331.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-K",
+    "filing_date": "2026-02-09",
+    "period_end": "2025-12-31",
+    "accession_no": "0000732717-26-000120",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2025-10-31",
+    "period_end": "2025-09-30",
+    "accession_no": "0000732717-25-000171",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000171/t-20250930.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2025-07-24",
+    "period_end": "2025-06-30",
+    "accession_no": "0000732717-25-000080",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000080/t-20250630.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2025-04-29",
+    "period_end": "2025-03-31",
+    "accession_no": "0000732717-25-000023",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000023/t-20250331.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-K",
+    "filing_date": "2025-02-12",
+    "period_end": "2024-12-31",
+    "accession_no": "0000732717-25-000013",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000013/t-20241231.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2024-10-29",
+    "period_end": "2024-09-30",
+    "accession_no": "0000732717-24-000059",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000059/t-20240930.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2024-07-25",
+    "period_end": "2024-06-30",
+    "accession_no": "0000732717-24-000053",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000053/t-20240630.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-Q",
+    "filing_date": "2024-05-02",
+    "period_end": "2024-03-31",
+    "accession_no": "0000732717-24-000022",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000022/t-20240331.htm"
+  },
+  {
+    "carrier_id": "att",
+    "form": "10-K",
+    "filing_date": "2024-02-23",
+    "period_end": "2023-12-31",
+    "accession_no": "0000732717-24-000009",
+    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000009/t-20231231.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2026-10-29",
+    "period_end": "2026-09-30",
+    "accession_no": "0000732712-26-000052",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000052/vz-20260930.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2026-07-31",
+    "period_end": "2026-06-30",
+    "accession_no": "0000732712-26-000046",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000046/vz-20260630.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2026-05-01",
+    "period_end": "2026-03-31",
+    "accession_no": "0000732712-26-000023",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000023/vz-20260331.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-K",
+    "filing_date": "2026-02-17",
+    "period_end": "2025-12-31",
+    "accession_no": "0000732712-26-000007",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000007/vz-20251231.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2025-10-29",
+    "period_end": "2025-09-30",
+    "accession_no": "0000732712-25-000116",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000116/vz-20250930.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2025-07-25",
+    "period_end": "2025-06-30",
+    "accession_no": "0000732712-25-000086",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000086/vz-20250630.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2025-04-25",
+    "period_end": "2025-03-31",
+    "accession_no": "0000732712-25-000024",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000024/vz-20250331.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-K",
+    "filing_date": "2025-02-12",
+    "period_end": "2024-12-31",
+    "accession_no": "0000732712-25-000006",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271225000006/vz-20241231.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2024-10-25",
+    "period_end": "2024-09-30",
+    "accession_no": "0000732712-24-000069",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271224000069/vz-20240930.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2024-07-25",
+    "period_end": "2024-06-30",
+    "accession_no": "0000732712-24-000052",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271224000052/vz-20240630.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-Q",
+    "filing_date": "2024-04-25",
+    "period_end": "2024-03-31",
+    "accession_no": "0000732712-24-000029",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271224000029/vz-20240331.htm"
+  },
+  {
+    "carrier_id": "verizon",
+    "form": "10-K",
+    "filing_date": "2024-02-09",
+    "period_end": "2023-12-31",
+    "accession_no": "0000732712-24-000010",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271224000010/vz-20231231.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2026-10-28",
+    "period_end": "2026-09-30",
+    "accession_no": "0001283699-26-000129",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000129/tmus-20260930.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2026-07-23",
+    "period_end": "2026-06-30",
+    "accession_no": "0001283699-26-000101",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/tmus-20260630.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2026-04-28",
+    "period_end": "2026-03-31",
+    "accession_no": "0001283699-26-000063",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000063/tmus-20260331.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-K",
+    "filing_date": "2026-02-11",
+    "period_end": "2025-12-31",
+    "accession_no": "0001283699-26-000010",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/tmus-20251231.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2025-10-23",
+    "period_end": "2025-09-30",
+    "accession_no": "0001283699-25-000154",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369925000154/tmus-20250930.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2025-07-23",
+    "period_end": "2025-06-30",
+    "accession_no": "0001283699-25-000117",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369925000117/tmus-20250630.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2025-04-24",
+    "period_end": "2025-03-31",
+    "accession_no": "0001283699-25-000079",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369925000079/tmus-20250331.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-K",
+    "filing_date": "2025-01-31",
+    "period_end": "2024-12-31",
+    "accession_no": "0001283699-25-000012",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369925000012/tmus-20241231.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2024-10-23",
+    "period_end": "2024-09-30",
+    "accession_no": "0001283699-24-000142",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369924000142/tmus-20240930.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2024-07-31",
+    "period_end": "2024-06-30",
+    "accession_no": "0001283699-24-000111",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369924000111/tmus-20240630.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-Q",
+    "filing_date": "2024-04-26",
+    "period_end": "2024-03-31",
+    "accession_no": "0001283699-24-000065",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369924000065/tmus-20240331.htm"
+  },
+  {
+    "carrier_id": "tmobile",
+    "form": "10-K",
+    "filing_date": "2024-02-02",
+    "period_end": "2023-12-31",
+    "accession_no": "0001283699-24-000008",
+    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369924000008/tmus-20231231.htm"
+  }
+]
