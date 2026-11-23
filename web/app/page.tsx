@@ -1,4 +1,5 @@
-import { CumulativeLineChart, NetAddsBarChart, formatK } from "@/components/charts";
+import { CumulativeLineChart, NetAddsBarChart } from "@/components/charts";
+import { formatK } from "@/lib/format";
 import { CARRIER_ORDER, loadDashboard, type Dashboard, type MetricRow } from "@/lib/data";
 
 const METRIC_LABELS: Record<string, string> = {
@@ -200,7 +201,7 @@ export default async function Page() {
           title="T-Mobile postpaid net account additions"
           note="Thousands. T-Mobile's primary KPI since 2026; shown separately because it counts accounts, not lines."
         >
-          <NetAddsBarChart data={accountNetAdds.map((p) => ({ ...p, att: null, verizon: null }))} />
+          <NetAddsBarChart data={accountNetAdds} series={["tmobile"]} />
         </Card>
 
         <Card

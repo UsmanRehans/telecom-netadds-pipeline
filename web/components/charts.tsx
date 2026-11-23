@@ -13,6 +13,8 @@ import {
   YAxis,
 } from "recharts";
 
+import { formatK } from "@/lib/format";
+
 export type SeriesPoint = {
   label: string;
   att?: number | null;
@@ -28,13 +30,6 @@ const SERIES = [
   { key: "verizon", name: "Verizon", cssVar: "--series-verizon" },
   { key: "tmobile", name: "T-Mobile", cssVar: "--series-tmobile" },
 ] as const;
-
-export function formatK(v: number): string {
-  const sign = v < 0 ? "−" : "+";
-  const abs = Math.abs(v);
-  if (abs >= 1000) return `${sign}${(abs / 1000).toFixed(2).replace(/\.?0+$/, "")}M`;
-  return `${sign}${Math.round(abs)}K`;
-}
 
 function axisK(v: number): string {
   if (v === 0) return "0";
@@ -91,20 +86,39 @@ const commonAxisProps = {
   tickLine: false as const,
 };
 
-export function NetAddsBarChart({ data }: { data: SeriesPoint[] }) {
+function trimEmpty(data: SeriesPoint[], keys: readonly string[]) {
+  const hasValue = (p: SeriesPoint) =>
+    keys.some((k) => p[k as keyof SeriesPoint] != null);
+  const first = data.findIndex(hasValue);
+  if (first < 0) return data;
+  const last = data.length - [...data].reverse().findIndex(hasValue);
+  return data.slice(first, last);
+}
+
+export function NetAddsBarChart({
+  data,
+  series,
+}: {
+  data: SeriesPoint[];
+  series?: ReadonlyArray<"att" | "verizon" | "tmobile">;
+}) {
+  const active = SERIES.filter((s) => !series || series.includes(s.key));
+  const trimmed = trimEmpty(data, active.map((s) => s.key));
   return (
     <ResponsiveContainer width="100%" height={320}>
-      <BarChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }} barGap={2}>
+      <BarChart data={trimmed} margin={{ top: 8, right: 8, left: 0, bottom: 0 }} barGap={2}>
         <CartesianGrid stroke="var(--grid)" vertical={false} />
         <XAxis dataKey="label" {...commonAxisProps} interval="preserveStartEnd" />
         <YAxis {...commonAxisProps} tickFormatter={axisK} width={48} />
         <Tooltip content={<VizTooltip />} cursor={{ fill: "var(--surface-2)", opacity: 0.6 }} />
-        <Legend
-          wrapperStyle={{ fontSize: 12, color: "var(--text-secondary)" }}
-          iconType="circle"
-          iconSize={8}
-        />
-        {SERIES.map((s) => (
+        {active.length > 1 && (
+          <Legend
+            wrapperStyle={{ fontSize: 12, color: "var(--text-secondary)" }}
+            iconType="circle"
+            iconSize={8}
+          />
+        )}
+        {active.map((s) => (
           <Bar
             key={s.key}
             dataKey={s.key}
