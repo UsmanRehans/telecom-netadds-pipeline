@@ -1,20 +1,20 @@
-# Virtual environment
-venv/
+# Python
 __pycache__/
+venv/
+.venv/
 *.pyc
 
-# Data files
-data/*.csv
-data/*.json
-
-# Notebooks checkpoints
-.ipynb_checkpoints/
-
-# OS files
-.DS_Store
-
-# Environment variables
+# Secrets
 .env
+.env.*
+!.env.example
 
-# Temporary Excel files
-data/~$*.xlsx
+# Pipeline data
+data/cache/
+
+# Node / Next.js
+node_modules/
+web/.next/
+web/.vercel/
+.vercel/
+.DS_Store
