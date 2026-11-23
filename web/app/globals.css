@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
+/* Design tokens. Series colors are validated for CVD separation, lightness
+   band, and surface contrast in both modes (dark mode is its own palette,
+   not an automatic flip). */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfcfb;
+  --surface-1: #ffffff;
+  --surface-2: #f4f4f1;
+  --border: #e4e4df;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #8a897f;
+  --grid: #ececea;
+  --series-att: #0a8fc2;
+  --series-verizon: #a31010;
+  --series-tmobile: #e20074;
+  --positive: #1a7f37;
+  --negative: #b35900;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-borderline: var(--border);
+  --color-ink: var(--text-primary);
+  --color-ink-2: var(--text-secondary);
+  --color-ink-3: var(--text-muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #141414;
+    --surface-1: #1c1c1b;
+    --surface-2: #242423;
+    --border: #353532;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted: #8f8e85;
+    --grid: #2e2e2c;
+    --series-att: #1f9ed1;
+    --series-verizon: #cc3b3b;
+    --series-tmobile: #ce5ecb;
+    --positive: #4ac26b;
+    --negative: #e8914a;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, sans-serif;
 }
